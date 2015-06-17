@@ -1,0 +1,146 @@
+*{margin:0px;
+padding:0px;
+}
+
+h1{
+	font:bold 20px Tahoma;
+}
+
+h2{
+	font:bold 20px Tahoma;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+display:block;
+}
+
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+}
+
+#big_drop{
+	max-width:1000px;
+	margin:20px 0px;
+	display:-webkit-box;
+	background:lightblue;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex:1;
+}
+
+#top_header{
+	background:white;
+	border:0px solid black;
+	padding: 20px;
+}
+
+#top_menu{
+	border:0px solid red;
+	background:cyan;
+	color:white;
+}
+
+#top_menu li{
+	display:inline-block;
+	border:2px solid black;
+	list-style:none;
+	text-align:center;
+	padding:5px;
+	background:lightblue;
+	font:bold 15px Tahoma;
+	margin: 10px;
+	width:120px;
+	height:15px;
+	-webkit-box-flex:1;
+	-webkit-border-radius:25px;
+	opacity:1;
+	-webkit-box-shadow:rgb(110,110,110) 8px 8px 8px;
+	-webkit-box-pack:center;
+	-webkiit-transition: -webkit-transform 3s, opacity 2s, background 2s, width 2s;
+}
+
+#top_menu li:hover{
+-webkit-transform: rotate(360deg);
+opacity:1;
+background:#1ec7e6;
+width:50;
+}
+
+#new_div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+#main_section{
+	border: 1px solid lightblue;
+	-webkit-box-flex:1;
+	margin:20px;
+	padding:20px;
+	-webkit-border-radius:25px;
+	
+}
+
+article{
+	background:yellow;
+	border:1px solid black;
+	padding:20px;
+	margin-bottom:15px;
+	-webkit-border-radius:25px;
+	-webkit-box-shadow:rgb(110,110,110) 8px 8px 8px inset;
+	}
+
+	
+article{
+	border:1px solid black;
+	padding:20px;
+	margin-bottom:15px;
+	-webkit-border-radius:25px
+	-webkit-box-shadow:rgb(110,110,110) 8px 8px 8px inset;
+	background:-webkit-radial-gradient(center,circle,lightblue 0%, limegreen 50%)
+	}
+
+#whh_news{
+	border:1px solid limegreen; 
+	width:200px;
+	margin:20px;
+	padding:30px;
+	background:green;
+	color:white;
+	-webkit-border-radius:25px;
+	-webkit-box-shadow:rgb(110,110,110,.7) 8px 8px 8px;
+}
+
+#whh_news:hover{
+-webkit-transform:scale(1.1)
+}
+
+
+#whh_news li{
+	list-style:none;
+	-webkit-border-radius:25px;
+}
+
+#whh_news li:hover{
+-webkit-transform:scale(1.5)
+}
+
+
+#footer_info{
+	text-align:center;
+	border-top:1px solid blue;
+	padding:10px;
+}
+
+article footer{
+	text-align:right;
+}
+
+
+#rightbox{
+	padding:10px;
+	border:3px solid red;
+	width:150px;
+	height:50px
+
+}

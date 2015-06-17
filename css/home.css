@@ -1,0 +1,185 @@
+body,html{
+    width: 100%;
+    background-image: url(images/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#page-content{
+    background-color: white;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    /* outer shadows  (note the rgba is red, green, blue, alpha) */
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+    
+    /* rounded corners */
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 7px; 
+    border-radius: 7px;
+}
+.header-image{
+    position: relative;
+    left: 40%;
+}
+#social ul{
+    position: relative;
+    left: 43%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 60px;
+}
+#social ul li{
+    display: inline;
+}
+.social-icons {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+    float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-icons:hover {
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+.facebook{
+    background-image: url('images/facebook-gray.png');
+}
+.facebook:hover{
+    background-image: url('images/facebook.png');
+}
+
+.instagram{
+    background-image: url('images/instagram-gray.png');
+}
+.instagram:hover{
+    background-image: url('images/instagram.png');
+}
+
+.twitter{
+    background-image: url('images/twitter-gray.png');
+}
+.twitter:hover{
+    background-image: url('images/twitter.png');
+}
+.navbar-default{
+    margin-top: 1%;
+    background-color: lightblue;
+    
+}
+.navbar-nav{
+    width: 100%;
+}
+.navbar-nav li{
+    position: relative;
+    left: 8%;
+    width: 10%;
+    margin-left: 5%;
+}
+
+.btn-default{
+    width: 100%;
+    border-radius: 24px;
+    background: #33a6cc;
+}
+.btn-default:hover{
+    background-color: #81BEF7;
+}
+.navbar-nav li p a{
+    color: white;
+}
+
+.carousel{
+    height: 100%;
+    width: 100%;
+}
+.carousel .item{
+    width: 100%;
+}
+.carousel-inner .item img{
+    width: 100%;
+    height: 100%;
+}
+#first{
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    left: 50%;
+    bottom: 20%
+}
+#marquee{
+    position: relative;
+    top: 50%;
+    height: 750px;
+}
+#side-bar-first{
+    height: 100%;
+    border: solid #E6E6E6 5px;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+    padding: 5%;
+}
+#side-bar-second{
+    border: solid #E6E6E6 5px;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+    padding: 5px;
+}
+#side-bar-second a{
+    color: #585858;
+    text-decoration: none;
+}
+#side-bar-second h3 a:hover{
+    color: black;
+    font-size: 110%;
+}
+#second-div{
+    padding: 5%;
+    padding-top: 20px;
+    border-left: solid 2px #eee;
+    border-right: solid 2px #eee;
+    border-bottom: solid 2px #eee;
+}
+.image-holder1 img{
+    width: 100%;
+}
+
+#volunteers{
+    /* outer shadows  (note the rgba is red, green, blue, alpha) */
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+    /* rounded corners */
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 7px; 
+    border-radius: 7px;
+
+    /* gradients */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(15%, white), color-stop(100%, lightblue)); 
+    background: -moz-linear-gradient(top, white 0%, white 55%, lightblue 130%); 
+    height: 280px;
+}
+.image-holder{
+    width: 70%;
+    height: 150px;
+}
+.image-holder img{
+    width: 100%;
+    height: 100%;
+     /* outer shadows  (note the rgba is red, green, blue, alpha) */
+    -webkit-box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+}
